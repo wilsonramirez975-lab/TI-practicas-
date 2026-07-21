@@ -1,0 +1,69 @@
+# HackerRank – 30 Días de Código
+
+## Día 5: Bucles (Loops)
+
+### Objetivo
+
+En este desafío utilizaremos **bucles (loops)** para realizar operaciones matemáticas. Puedes consultar la sección **Tutorial** para aprender más sobre el uso de los bucles.
+
+### Tarea
+
+Dado un número entero **n**, imprime sus **primeros 10 múltiplos**.
+
+Cada múltiplo **n × i** (donde **i** toma valores del **1 al 10**) debe imprimirse en una línea diferente utilizando el siguiente formato:
+
+**n x i = resultado**
+
+### Ejemplo
+
+Si el número ingresado es **3**, la salida debe ser:
+
+3 x 1 = 3
+3 x 2 = 6
+3 x 3 = 9
+3 x 4 = 12
+3 x 5 = 15
+3 x 6 = 18
+3 x 7 = 21
+3 x 8 = 24
+3 x 9 = 27
+3 x 10 = 30
+
+### Formato de entrada
+
+La entrada consiste en un único número entero **n**.
+
+### Restricciones
+
+El valor de **n** debe cumplir con las restricciones establecidas por el ejercicio de HackerRank.
+
+### Formato de salida
+
+Imprime **10 líneas** de salida. Cada línea debe contener el resultado de multiplicar **n** por un número del **1 al 10**, utilizando el siguiente formato:
+
+**n x i = resultado**
+
+### Entrada de ejemplo
+
+2
+
+### Salida de ejemplo
+
+2 x 1 = 2
+2 x 2 = 4
+2 x 3 = 6
+2 x 4 = 8
+2 x 5 = 10
+2 x 6 = 12
+2 x 7 = 14
+2 x 8 = 16
+2 x 9 = 18
+2 x 10 = 20
+
+### Explicación
+
+El programa debe leer un número entero ingresado por el usuario y, mediante un **bucle**, calcular e imprimir su tabla de multiplicar desde el **1 hasta el 10**. Cada operación debe mostrarse en una línea independiente respetando el formato solicitado:
+
+**n x i = resultado**
+
+Por ejemplo, si el usuario introduce el número **2**, el programa imprimirá la tabla de multiplicar del 2 desde **2 × 1** hasta **2 × 10**.
