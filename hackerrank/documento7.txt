@@ -1,0 +1,61 @@
+# HackerRank – 30 Días de Código
+
+## Día 7: Arreglos (Arrays)
+
+### Objetivo
+
+En este desafío aprenderemos sobre la estructura de datos denominada **arreglo (Array)**. Puedes consultar la pestaña **Tutorial** para acceder al material de aprendizaje y a un video explicativo.
+
+### Tarea
+
+Dado un arreglo **A** compuesto por **N** números enteros, imprime los elementos del arreglo en **orden inverso**, mostrando todos los números en una sola línea y separados por un espacio.
+
+### Ejemplo
+
+Si el arreglo es:
+
+1 2 3 4
+
+La salida debe ser:
+
+4 3 2 1
+
+Cada número entero debe estar separado por un solo espacio.
+
+### Formato de entrada
+
+* La primera línea contiene un número entero **N**, que representa el tamaño del arreglo.
+* La segunda línea contiene **N** números enteros separados por espacios, los cuales corresponden a los elementos del arreglo **A**.
+
+### Restricciones
+
+* El número de elementos del arreglo debe cumplir con las restricciones establecidas en el ejercicio.
+* Cada elemento del arreglo es un número entero que debe respetar los límites definidos por HackerRank.
+
+### Formato de salida
+
+Imprime los elementos del arreglo **A** en **orden inverso**, en una sola línea y separados por un espacio.
+
+### Entrada de ejemplo
+
+4
+
+1 4 3 2
+
+### Salida de ejemplo
+
+2 3 4 1
+
+### Explicación
+
+El programa debe leer la cantidad de elementos del arreglo y luego almacenar los números introducidos por el usuario. Después, debe recorrer el arreglo desde el último elemento hasta el primero para imprimirlos en orden inverso.
+
+En el ejemplo, el arreglo original es:
+
+1 4 3 2
+
+Al invertir el orden de sus elementos, el resultado es:
+
+2 3 4 1
+
+Todos los números deben mostrarse en una sola línea, separados por un espacio.
