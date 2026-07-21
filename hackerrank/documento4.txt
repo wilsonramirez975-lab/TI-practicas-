@@ -1,0 +1,50 @@
+Objetivo
+En este desafío vamos a aprender sobre la diferencia entre una clase y una instancia. Como este es un concepto de la Programación Orientada a Objetos, solo está habilitado en ciertos lenguajes.
+
+📋 Tarea
+Escribe una clase llamada Person con una variable de instancia, age (edad), y un constructor que reciba un número entero, initialAge (edad inicial), como parámetro.
+
+El constructor:
+
+Debe asignar initialAge a age después de confirmar que el valor recibido no sea negativo.
+
+Si se pasa un argumento negativo, el constructor debe fijar age en 0 e imprimir:
+
+Age is not valid, setting age to 0.
+
+Métodos de instancia (Funciones):
+
+yearPasses(): Debe incrementar la variable de instancia age en 1.
+
+amIOld(): Debe realizar las siguientes acciones según las condiciones:
+
+Si age<13, imprime: You are young.
+
+Si age≥13 y age<18, imprime: You are a teenager.
+
+En cualquier otro caso, imprime: You are old.
+
+📥 Formato de Entrada
+El código base de HackerRank maneja la entrada por ti. La primera línea contiene un número entero T (el número de casos de prueba), y las siguientes líneas contienen un entero que representa la edad (initialAge) de cada persona.
+
+📤 Formato de Salida
+Completa las definiciones de los métodos en el editor. Si tus métodos están bien implementados, cada caso de prueba imprimirá 2 o 3 líneas (dependiendo de si la edad inicial era válida o no).
+
+💡 Explicación de las Pruebas (Sample Cases)
+Caso de Prueba 0 (edad=−1):
+
+Como −1<0, el código asigna la edad a 0 e imprime "Age is not valid..." seguido del mensaje "You are young.". Pasan 3 años (edad=3), sigue siendo menor a 13, por lo que vuelve a imprimir "You are young.".
+
+Caso de Prueba 1 (edad=10):
+
+Como 10<13, imprime "You are young.". Pasan 3 años (edad=13), por lo que ahora imprime "You are a teenager.".
+
+Caso de Prueba 2 (edad=16):
+
+Como está entre 13 y 17, imprime "You are a teenager.". Pasan 3 años (edad=19), por lo que ahora imprime "You are old.".
+
+Caso de Prueba 3 (edad=18):
+
+Como es mayor o igual a 18, imprime "You are old.". Pasan 3 años (edad=21), y sigue imprimiendo "You are old.".
+
+¡Felicidades por completarlo! Veo en el texto que te salió Success y ganaste tus 30 puntos. ¡Vas por muy buen camino para tu segunda estrella!
